@@ -9,4 +9,11 @@ public class GeorchestraCustomClassLoader extends WebappClassLoader {
         "org.geotools.data.ogr.jni.JniOGRDataStoreFactory", // GeoTools OGR
         "it.geosolutions.imageio.gdalframework.GDALUtilities" // Gdal utilities from imageio-ext
     };
+    public GeorchestraCustomClassLoader() {
+        super();
+    }
+
+    public GeorchestraCustomClassLoader(ClassLoader parent) {
+        super(parent);
+    }
 }
