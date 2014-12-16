@@ -18,20 +18,6 @@
       <version>1.10.1</version>
       <scope>provided</scope>
     </dependency>
-    <dependency>
-      <groupId>jni</groupId>
-      <artifactId>org.geotools.data.ogr</artifactId>
-      <version>12</version>
-      <scope>system</scope>
-      <systemPath>${project.basedir}/src/main/resources/gt-ogr-jni-12-remloadlibrary.jar</systemPath>
-    </dependency>
-    <dependency>
-      <groupId>gdalframework</groupId>
-      <artifactId>it.geosolutions.imageio</artifactId>
-      <version>1.2</version>
-      <scope>system</scope>
-      <systemPath>${project.basedir}/src/main/resources/imageio-ext-gdalframework-1.2-remloadlibrary.jar</systemPath>
-    </dependency>
   </dependencies>
   <repositories>
     <repository>
